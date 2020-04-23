@@ -1,2 +1,0 @@
-# 3DKvadrat
-bootstrap design
