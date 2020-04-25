@@ -195,7 +195,7 @@ ul li {
     border:2px solid blue;
 }
 
-@media all and (min-width:1200px){ 
+@media all and (min-width:1800px){ 
     #numbers p {
         font-size:1.5rem; /*only bigger than 920px*/
     }
