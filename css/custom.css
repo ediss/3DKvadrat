@@ -38,15 +38,35 @@ ul li {
 }
 .header {
     /* padding: 0.8em 0; */
-    background: #e54f45;
+    background: #ef4143;
 }
+
+.menu-icon-vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 25px;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
 
 .bg-grey {
     background-color: #cccccc;
 }
 
+.about-us p {
+    font-size: 1rem;
+}
+
 .services p {
-    color:#e54f45;
     font-size: 1.2rem;
 }
 
@@ -156,3 +176,52 @@ ul li {
 .bottom-0 {
     bottom: 0;
 }
+.right-5 {
+    right: 5%;
+}
+.b-red {
+    border:2px solid red;
+}
+
+.b-black {
+    border:2px solid black;
+}
+
+.b-green {
+    border: 6px solid green;
+}
+
+.b-blue {
+    border:2px solid blue;
+}
+
+@media all and (min-width:1200px){ 
+    #numbers p {
+        font-size:1.5rem; /*only bigger than 920px*/
+    }
+
+    .about-us p {
+        font-size: 1.5rem;
+    }
+    .technology p {
+        font-size: 1.5rem;
+    }
+
+    .your-class ul, .your-class p {
+        font-size: 1.5rem;
+    }
+
+    .my-margin {
+        margin-top: 80px;
+    }
+    .my-margin h5 {
+        font-size: 2rem;
+    }
+}
+/*media query for bigger*/
+
+/*
+    numbers p 1.5rem
+
+    about us 1.5rem
+*/
