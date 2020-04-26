@@ -50,14 +50,7 @@ ul li {
     top: 25px;
 }
 
-.vertical-center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
+
 
 
 
@@ -196,6 +189,21 @@ ul li {
 
 .b-blue {
     border:2px solid blue;
+}
+
+.box-shadow {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+@media all and (min-width:760px){ 
+    .vertical-center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
 }
 
 @media all and (min-width:1800px){ 
